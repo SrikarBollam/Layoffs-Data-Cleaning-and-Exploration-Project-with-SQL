@@ -197,6 +197,8 @@ select MNTH, total_laid_off, sum(total_laid_off) over(order by MNTH ASC ) as rol
 from MNTH_CTE where MNTH is not null order by MNTH asc
 ;
 
+ ----------------------- 
+
 
 
 
